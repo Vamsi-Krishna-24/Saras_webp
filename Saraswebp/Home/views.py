@@ -6,3 +6,6 @@ def home(request):
 
 def login_view(request):
     return render(request, 'home/loginP.html')
+
+def features(request):
+    return render(request, 'home/features.html')
