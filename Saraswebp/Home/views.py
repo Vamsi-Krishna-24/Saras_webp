@@ -9,3 +9,6 @@ def login_view(request):
 
 def features(request):
     return render(request, 'home/features.html')
+
+def testmonials(request):
+    return render(request, 'home/testmonials.html')
